@@ -30,10 +30,11 @@ $(document).ready(function(){
 /* Formspree AJAX */
 
 $("#followsubmit").on("click", function() {
+    message = $("#follow")
     $.ajax({
-        url: "//formspree.io/dynamicrealities@gmail.com",
+        url: "//formspree.io/marc.mosca@gmail.com",
         method: "POST",
-        data: {message: "hello!"},
+        data: {message: message},
         dataType: "json"
     });
 });
