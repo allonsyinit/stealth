@@ -20,7 +20,7 @@ $('h1').css({ 'width':'100%', 'text-align':'center' });
     var m = w - h
 /*$('h1').css("margin-top",m + "px")*/
 /*$('body').css("height",m + "px")*/
-$(window).location.reload()
+/*$(window).location.reload()*/
 });
 
 $(document).ready(function(){
