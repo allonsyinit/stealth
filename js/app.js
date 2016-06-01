@@ -20,23 +20,9 @@ $('h1').css({ 'width':'100%', 'text-align':'center' });
     var m = w - h
 /*$('h1').css("margin-top",m + "px")*/
 /*$('body').css("height",m + "px")*/
-/*$(window).location.reload()*/
+/*$window.location.reload()*/
 });
 
 $(document).ready(function(){
     $('a').smoothScroll();
-});
-
-/* Formspree AJAX */
-
-var message = "";
-
-$("#followsubmit").on("click", function() {
-    message = $("#follow").serialize();
-    $.ajax({
-        url: "//formspree.io/allonsytemp@gmail.com",
-        method: "POST",
-        data: {message: message},
-        dataType: "json"
-    });
 });
