@@ -22,3 +22,7 @@ $('h1').css({ 'width':'100%', 'text-align':'center' });
 /*$('body').css("height",m + "px")*/
 $window.location.reload()
 });
+
+$(document).ready(function(){
+    $('a').smoothScroll();
+});

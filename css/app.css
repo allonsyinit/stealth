@@ -1,13 +1,41 @@
 body {
   padding: 0;
   margin: 0;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   line-height: 1.5;
   color: #ffffff;
   background: #212121;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Open Sans", Helvetica, Roboto, Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  color: inherit;
+  text-rendering: optimizeLegibility;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  line-height: 1.4; }
+  h1 small,
+  h2 small,
+  h3 small,
+  h4 small,
+  h5 small,
+  h6 small {
+    color: #cacaca;
+    line-height: 0; }
+
+#footer {
+    background-color: #512DA8;
+    color:#FFC107;
+}
 
 .slide {
     position: relative;
@@ -16,22 +44,29 @@ body {
 
 #slide1 {
     background: #212121;
+    height: 100%;
 }
 
 #slide2 {
      background: #FFFFFF;
-     height: 125%;
+     height: 100%;
 }
 
 .slidecontainer{
 	position:absolute;
-	left:50%;
 	top:50%;
-	margin:-150px 0 0 -150px;
+	margin-top:-150px;
+	margin-left:auto;
+	margin-right:auto;
+	width: 100%;
 }
 
 .titletext{
-    font-size:64px;
+    font-size:5rem;
+}
+
+.titlesubtext{
+    font-size:1.5rem;
 }
 
 .buttonylw {
