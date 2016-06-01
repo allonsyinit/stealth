@@ -29,10 +29,12 @@ $(document).ready(function(){
 
 /* Formspree AJAX */
 
+var message = "";
+
 $("#followsubmit").on("click", function() {
-    message = $("#follow")
+    message = $("#follow").serialize();
     $.ajax({
-        url: "//formspree.io/marc.mosca@gmail.com",
+        url: "//formspree.io/allonsytemp@gmail.com",
         method: "POST",
         data: {message: message},
         dataType: "json"
