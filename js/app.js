@@ -26,3 +26,14 @@ $window.location.reload()
 $(document).ready(function(){
     $('a').smoothScroll();
 });
+
+/* Formspree AJAX */
+
+$("#followsubmit").on("click", function() {
+    $.ajax({
+        url: "//formspree.io/dynamicrealities@gmail.com",
+        method: "POST",
+        data: {message: "hello!"},
+        dataType: "json"
+    });
+});
