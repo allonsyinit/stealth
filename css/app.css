@@ -32,15 +32,15 @@ h6 {
     color: #cacaca;
     line-height: 0; }
 
-#footer {
-    background-color: #512DA8;
-    color:#FFC107;
-}
 
-
-.slide {
+.slide-cover {
     position: relative;
     height: 100%;
+}
+
+.slide-body {
+    position: relative;
+    min-height: 90%;
 }
 
 #slide1 {
@@ -49,13 +49,20 @@ h6 {
 }
 
 #slide2 {
+
      background: #FFFFFF;
      height: 90%;
 }
 
 #slide2m {
      background: #FFFFFF;
-     height: 700px;
+     min-height: 90%;
+}
+
+#footer {
+
+    background: #512DA8;
+    color:#FFC107;
 }
 
 .slidecontainer{
